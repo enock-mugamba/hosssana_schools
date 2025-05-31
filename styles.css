@@ -1,0 +1,179 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color:white;
+    background-color: #caf0f8;
+}
+
+header {
+    background-color: #03045e;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-size-adjust: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 0.001rem;
+    background-color:#03045e;
+    color: white;
+    font-size: 0.8rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #90e0ef;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,  {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2, h3{
+    color:#03045e ;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color:black;
+}
+
+
+
+ul  {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    list-style-type: disc;
+    color: black;
+}
+ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    color: black;   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #004d99;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #004d99;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+form{
+    background-color: #e0f7fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    color: black;
+    font-size: 1rem;    
+}
